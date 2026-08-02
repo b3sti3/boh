@@ -185,22 +185,22 @@
   width: -211px;
   height: 385px;
   top: 72px;
-  left: 752px;
+  left: 780px;
 }
 
 .xbox .stick {
   position: absolute;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 93px;
-  width: 117px;
+  height: 121px;
+  width: 87px;
   background-position: center
 }
 
 .xbox .stick.left {
   top: 0;
   left: 0;
-  background-image: url("https://i.ibb.co/xdw2bPz/whammy.png");
+  background-image: url("https://i.ibb.co/3mWP0Pd2/whammy.png");
 }
 
 .xbox .stick.right {
