@@ -157,27 +157,27 @@
 
 .xbox .a {
   top: 0px;
-  left: 96px;
-  background-image: url("https://i.ibb.co/XkjScvhP/orange.png");
+  left: 32px;
+  background-image: url("https://i.ibb.co/XxDgBS8w/yellow.png");
 }
 
 .xbox .b {
   top: 0px;
-  left: 64px;
+  left: 0px;
   right: auto;
-  background-image: url("https://i.ibb.co/13w5bx6/blue.png");
+  background-image: url("https://i.ibb.co/1YKtyF8m/red.png");
 }
 
 .xbox .x {
   top: 0px;
-  left: 0px;
-  background-image: url("https://i.ibb.co/1YKtyF8m/red.png");
+  left: 64px;
+  background-image: url("https://i.ibb.co/13w5bx6/blue.png");
 }
 
 .xbox .y {
   top: 0px;
-  left: 32px;
-  background-image: url("https://i.ibb.co/XxDgBS8w/yellow.png");
+  left: 96px;
+  background-image: url("https://i.ibb.co/XkjScvhP/orange.png");
 }
 
 .xbox .sticks {
