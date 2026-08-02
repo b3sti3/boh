@@ -157,27 +157,27 @@
 
 .xbox .a {
   top: 0px;
-  left: 32px;
-  background-image: url("https://i.ibb.co/XxDgBS8w/yellow.png");
+  left: 96px;
+  background-image: url("https://i.ibb.co/XkjScvhP/orange.png");
 }
 
 .xbox .b {
   top: 0px;
-  left: 0px;
+  left: 64px;
   right: auto;
-  background-image: url("https://i.ibb.co/1YKtyF8m/red.png");
+  background-image: url("https://i.ibb.co/13w5bx6/blue.png");
 }
 
 .xbox .x {
   top: 0px;
-  left: 64px;
-  background-image: url("https://i.ibb.co/13w5bx6/blue.png");
+  left: 0px;
+  background-image: url("https://i.ibb.co/1YKtyF8m/red.png");
 }
 
 .xbox .y {
   top: 0px;
-  left: 96px;
-  background-image: url("https://i.ibb.co/XkjScvhP/orange.png");
+  left: 32px;
+  background-image: url("https://i.ibb.co/XxDgBS8w/yellow.png");
 }
 
 .xbox .sticks {
@@ -240,17 +240,17 @@
   left: 0px;
   top: 0px;
   width: 90px;
-  height: 11px;
+  height: 25px;
   background-image: url("https://i.ibb.co/398DC9t5/strum.png");
   background-position: center;
 }
 
 .xbox .face.down {
   left: 0px;
-  top: 12px;
+  top: 0px;
   bottom: auto;
   width: 90px;
-  height: 11px;
+  height: 25px;
   background-image: url("https://i.ibb.co/398DC9t5/strum.png");
   background-position: center;
 }
