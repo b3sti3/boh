@@ -1,0 +1,309 @@
+/*BEGIN Custom Controller Styling*/
+.controller.xbox {
+  background: url("https://i.ibb.co/DDSq0QGN/base.png") no-repeat center / 100% 100%;
+  height: 331px;
+  width: 960px;
+}
+
+.xbox.white {
+  background: url("https://i.ibb.co/DDSq0QGN/base.png") no-repeat center / 100% 100%;
+}
+
+.xbox.disconnected {
+  background: url("https://overlay.gamepadviewer.com/assets/xbox-assets/disconnected.svg") no-repeat center / 100% 100%;
+}
+
+.xbox.disconnected div {
+  display: none;
+}
+
+.xbox .triggers {
+  width: 145px;
+  height: 331px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.xbox .trigger {
+  width: 960px;
+  height: 331px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0;
+}
+
+.xbox .trigger.left {
+  float: left;
+  width: 960px;
+  height: 331px;
+  background-image: url("https://i.ibb.co/TqNWSRpd/base-Star.webp");
+}
+
+.xbox .trigger.right {
+  float: right;
+  width: 27px;
+  height: 39px;
+  background-image: url("https://i.ibb.co/MyXzctBh/green.png");
+  transform: none;
+  position: relative;
+  top: -178px;
+}
+
+.xbox .trigger.pressed {
+  opacity: 1;
+}
+
+.xbox .bumper {
+  width: 170px;
+  height: 61px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0;
+}
+
+.xbox .bumpers {
+  position: absolute;
+  width: 536px;
+  height: 61px;
+  left: 107px;
+  top: 129px;
+}
+
+.xbox .bumper.pressed {
+  opacity: 1;
+}
+
+.xbox .bumper.left {
+  float: left;
+  width: 170px;
+  height: 61px;
+  background-image: url("https://overlay.gamepadviewer.com/assets/xbox-assets/lb-pressed.svg");
+}
+
+.xbox .bumper.right {
+  float: right;
+  width: 170px;
+  height: 61px;
+  background-image: url("https://overlay.gamepadviewer.com/assets/xbox-assets/rb-pressed.svg");
+  transform: none;
+  -webkit-transform: none;
+}
+
+.xbox .quadrant {
+  display: none;
+}
+
+.xbox .arrows {
+  position: absolute;
+  width: 56px;
+  height: 21px;
+  top: 110px;
+  left: 871px;
+}
+
+.xbox .back,
+.xbox .start {
+  width: 23px;
+  height: 21px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0;
+}
+
+.xbox .back.pressed,
+.xbox .start.pressed {
+  opacity: 1;
+}
+
+.xbox .back {
+  float: left;
+  background-image: url("https://i.ibb.co/V0f9dRRz/select.png");
+  position: relative;
+  top: 20px;
+  left: 0px;
+}
+
+.xbox .start {
+  float: right;
+  background-image: url("https://i.ibb.co/jk5vsJ8P/start.png");
+  background-position: center;
+  position: relative;
+  top: -1px;
+}
+
+.xbox .abxy {
+  position: absolute;
+  width: 123px;
+  height: 39px;
+  top: 153px;
+  left: 150px;
+}
+
+.xbox .button {
+  position: absolute;
+  width: 27px;
+  height: 39px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0;
+}
+
+.xbox .button.pressed {
+  opacity: 1;
+  margin-top: 0;
+  background-position: center;
+}
+
+.xbox .a {
+  top: 0px;
+  left: 32px;
+  background-image: url("https://i.ibb.co/XxDgBS8w/yellow.png");
+}
+
+.xbox .b {
+  top: 0px;
+  left: 0px;
+  right: auto;
+  background-image: url("https://i.ibb.co/1YKtyF8m/red.png");
+}
+
+.xbox .x {
+  top: 0px;
+  left: 64px;
+  background-image: url("https://i.ibb.co/13w5bx6/blue.png");
+}
+
+.xbox .y {
+  top: 0px;
+  left: 96px;
+  background-image: url("https://i.ibb.co/XkjScvhP/orange.png");
+}
+
+.xbox .sticks {
+  position: absolute;
+  width: -211px;
+  height: 385px;
+  top: 70px;
+  left: 726px;
+}
+
+.xbox .stick {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 29px;
+  width: 141px;
+  background-position: center
+}
+
+.xbox .stick.left {
+  top: 0;
+  left: 0;
+  background-image: url("https://i.ibb.co/5gvYpJD4/whammy.png");
+}
+
+.xbox .stick.right {
+  top: 302px;
+  left: -294px;
+  background-image: url("");
+}
+
+.xbox .stick.left.pressed {
+  background-image: url("https://i.ibb.co/5gvYpJD4/whammy.png");
+}
+
+.xbox .stick.right.pressed {
+  background-image: url("https://overlay.gamepadviewer.com/assets/xbox-assets/stick-pressed.svg");
+}
+
+.xbox .dpad {
+  position: absolute;
+  width: 90px;
+  height: 25px;
+  top: 153px;
+  left: 681px;
+}
+
+.xbox .face {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0;
+}
+
+.xbox .face.pressed {
+  opacity: 1;
+}
+
+.xbox .face.up {
+  left: 0px;
+  top: 0px;
+  width: 90px;
+  height: 11px;
+  background-image: url("https://i.ibb.co/398DC9t5/strum.png");
+  background-position: center;
+}
+
+.xbox .face.down {
+  left: 0px;
+  top: 12px;
+  bottom: auto;
+  width: 90px;
+  height: 11px;
+  background-image: url("https://i.ibb.co/398DC9t5/strum.png");
+  background-position: center;
+}
+
+.xbox .face.left {
+  width: 56px;
+  height: 34px;
+  top: 39px;
+  left: 0px;
+  background-image: url("https://overlay.gamepadviewer.com/assets/xbox-assets/left-pressed.svg");
+  background-position: center;
+}
+
+.xbox .face.right {
+  width: 56px;
+  height: 34px;
+  top: 39px;
+  left: 55px;
+  right: auto;
+  background-image: url("https://overlay.gamepadviewer.com/assets/xbox-assets/right-pressed.svg");
+  background-position: center;
+}
+
+.xbox .touchpad {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 0px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.xbox .touchpad.pressed {
+  background-image: url("");
+}
+
+.xbox .meta {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 0px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.xbox .meta.pressed {
+  background-image: url("");
+}
+
+.xbox.half {
+  margin-top: 0px;
+}
+
+/*END Custom Controller Styling*/
