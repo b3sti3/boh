@@ -220,7 +220,7 @@
 .xbox .dpad {
   position: absolute;
   width: 90px;
-  height: 25px;
+  height: 20px;
   top: 153px;
   left: 681px;
 }
@@ -238,20 +238,20 @@
 
 .xbox .face.up {
   left: 0px;
-  top: 0px;
+  top: -2px;
   width: 90px;
-  height: 25px;
-  background-image: url("https://i.ibb.co/398DC9t5/strum.png");
+  height: 20px;
+  background-image: url("https://i.ibb.co/h1C0k8Lk/strum-Top.png");
   background-position: center;
 }
 
 .xbox .face.down {
   left: 0px;
-  top: 0px;
+  top: 2px;
   bottom: auto;
   width: 90px;
-  height: 25px;
-  background-image: url("https://i.ibb.co/398DC9t5/strum.png");
+  height: 20px;
+  background-image: url("https://i.ibb.co/GQBST5GP/strum-Bot.png");
   background-position: center;
 }
 
