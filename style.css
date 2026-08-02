@@ -1,4 +1,4 @@
-/*BEGIN Custom Controller Styling*/
+/*BEGIN Xbox One Custom Controller Styling*/
 .controller.xbox {
   background: url("https://i.ibb.co/DDSq0QGN/base.png") no-repeat center / 100% 100%;
   height: 331px;
@@ -78,14 +78,14 @@
   float: left;
   width: 170px;
   height: 61px;
-  background-image: url("https://overlay.gamepadviewer.com/assets/xbox-assets/lb-pressed.svg");
+  background-image: url("");
 }
 
 .xbox .bumper.right {
   float: right;
   width: 170px;
   height: 61px;
-  background-image: url("https://overlay.gamepadviewer.com/assets/xbox-assets/rb-pressed.svg");
+  background-image: url("");
   transform: none;
   -webkit-transform: none;
 }
@@ -214,7 +214,7 @@
 }
 
 .xbox .stick.right.pressed {
-  background-image: url("https://overlay.gamepadviewer.com/assets/xbox-assets/stick-pressed.svg");
+  background-image: url("");
 }
 
 .xbox .dpad {
@@ -260,7 +260,7 @@
   height: 34px;
   top: 39px;
   left: 0px;
-  background-image: url("https://overlay.gamepadviewer.com/assets/xbox-assets/left-pressed.svg");
+  background-image: url("");
   background-position: center;
 }
 
@@ -270,7 +270,7 @@
   top: 39px;
   left: 55px;
   right: auto;
-  background-image: url("https://overlay.gamepadviewer.com/assets/xbox-assets/right-pressed.svg");
+  background-image: url("");
   background-position: center;
 }
 
@@ -306,4 +306,4 @@
   margin-top: 0px;
 }
 
-/*END Custom Controller Styling*/
+/*END Xbox One Custom Controller Styling*/
