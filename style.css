@@ -1,12 +1,12 @@
 /*BEGIN Xbox One Custom Controller Styling*/
 .controller.xbox {
-  background: url("https://i.ibb.co/SwrppcPL/base.png") no-repeat center / 100% 100%;
+  background: url("https://i.ibb.co/Zz5gJ7kD/base.png") no-repeat center / 100% 100%;
   height: 331px;
   width: 960px;
 }
 
 .xbox.white {
-  background: url("https://i.ibb.co/SwrppcPL/base.png") no-repeat center / 100% 100%;
+  background: url("https://i.ibb.co/Zz5gJ7kD/base.png") no-repeat center / 100% 100%;
 }
 
 .xbox.disconnected {
@@ -44,7 +44,7 @@
   float: right;
   width: 27px;
   height: 39px;
-  background-image: url("https://i.ibb.co/MyXzctBh/green.png");
+  background-image: url("https://i.ibb.co/Rpd4gzVR/green.png");
   transform: none;
   position: relative;
   top: -178px;
@@ -177,7 +177,7 @@
 .xbox .y {
   top: 0px;
   left: 32px;
-  background-image: url("https://i.ibb.co/XxDgBS8w/yellow.png");
+  background-image: url("https://i.ibb.co/7dg8sMsz/yellow.png");
 }
 
 .xbox .sticks {
@@ -251,7 +251,7 @@
   bottom: auto;
   width: 90px;
   height: 20px;
-  background-image: url("https://i.ibb.co/GQBST5GP/strum-Bot.png");
+  background-image: url("https://i.ibb.co/sp9nr2DY/strum-Bot.png");
   background-position: center;
 }
 
