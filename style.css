@@ -157,35 +157,35 @@
 
 .xbox .a {
   top: 0px;
-  left: 32px;
-  background-image: url("https://i.ibb.co/XxDgBS8w/yellow.png");
+  left: 96px;
+  background-image: url("https://i.ibb.co/XkjScvhP/orange.png");
 }
 
 .xbox .b {
   top: 0px;
-  left: 0px;
+  left: 64px;
   right: auto;
-  background-image: url("https://i.ibb.co/1YKtyF8m/red.png");
+  background-image: url("https://i.ibb.co/13w5bx6/blue.png");
 }
 
 .xbox .x {
   top: 0px;
-  left: 64px;
-  background-image: url("https://i.ibb.co/13w5bx6/blue.png");
+  left: 0px;
+  background-image: url("https://i.ibb.co/1YKtyF8m/red.png");
 }
 
 .xbox .y {
   top: 0px;
-  left: 96px;
-  background-image: url("https://i.ibb.co/XkjScvhP/orange.png");
+  left: 32px;
+  background-image: url("https://i.ibb.co/XxDgBS8w/yellow.png");
 }
 
 .xbox .sticks {
   position: absolute;
   width: -211px;
   height: 385px;
-  top: 72px;
-  left: 780px;
+  top: 71px;
+  left: 770px;
 }
 
 .xbox .stick {
@@ -238,7 +238,7 @@
 
 .xbox .face.up {
   left: 0px;
-  top: -2px;
+  top: 1px;
   width: 90px;
   height: 20px;
   background-image: url("https://i.ibb.co/h1C0k8Lk/strum-Top.png");
@@ -247,7 +247,7 @@
 
 .xbox .face.down {
   left: 0px;
-  top: 2px;
+  top: -1px;
   bottom: auto;
   width: 90px;
   height: 20px;
