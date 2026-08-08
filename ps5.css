@@ -193,21 +193,21 @@
 .xbox .stick.left {
   top: 0;
   left: 0;
-  background-image: url("https://i.ibb.co/Z6hkk2HX/ls-NCus.png");
+  background-image: url("https://i.ibb.co/rGRmYhBs/ls-NC.png");
 }
 
 .xbox .stick.right {
   top: 0;
   left: 380px;
-  background-image: url("https://i.ibb.co/nMQTBVc2/rs-NCus.png");
+  background-image: url("https://i.ibb.co/8DJP4mx8/rs-NC.png");
 }
 
 .xbox .stick.left.pressed {
-  background-image: url("https://i.ibb.co/VWzQW5YQ/ls-Cus.png");
+  background-image: url("https://i.ibb.co/chjQ5z4f/ls-C.png");
 }
 
 .xbox .stick.right.pressed {
-  background-image: url("https://i.ibb.co/nyRyRrj/rs-Cus.png");
+  background-image: url("https://i.ibb.co/GhjyHy2/rs-C.png");
 }
 
 .xbox .dpad {
