@@ -1,0 +1,302 @@
+/*BEGIN Xbox One Controller Styling*/
+.controller.xbox {
+  background: url("https://i.ibb.co/ksM3GGSX/base.webp") no-repeat center / 100% 100%;
+  height: 909px;
+  width: 1166px;
+}
+
+.xbox.white {
+  background: url("https://i.ibb.co/ksM3GGSX/base.webp") no-repeat center / 100% 100%;
+}
+
+.xbox.disconnected {
+  background: url("https://overlay.gamepadviewer.com/assets/xbox-assets/disconnected.svg") no-repeat center / 100% 100%;
+}
+
+.xbox.disconnected div {
+  display: none;
+}
+
+.xbox .triggers {
+  width: 886px;
+  height: 134px;
+  position: absolute;
+  left: 141px;
+  top: 1px;
+}
+
+.xbox .trigger {
+  width: 143px;
+  height: 132px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0;
+}
+
+.xbox .trigger.left {
+  float: left;
+  width: 143px;
+  height: 132px;
+  background-image: url("https://i.ibb.co/351YVcvm/lt.png");
+}
+
+.xbox .trigger.right {
+  float: right;
+  width: 145px;
+  height: 132px;
+  background-image: url("https://i.ibb.co/PvQ6HhzQ/rt.png");
+  transform: none;
+}
+
+.xbox .trigger.pressed {
+  opacity: 1;
+}
+
+.xbox .bumper {
+  width: 157px;
+  height: 56px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0;
+}
+
+.xbox .bumpers {
+  position: absolute;
+  width: 891px;
+  height: 56px;
+  left: 138px;
+  top: 133px;
+}
+
+.xbox .bumper.pressed {
+  opacity: 1;
+}
+
+.xbox .bumper.left {
+  float: left;
+  width: 157px;
+  height: 56px;
+  background-image: url("https://i.ibb.co/nsvXX6zj/lb.png");
+}
+
+.xbox .bumper.right {
+  float: right;
+  width: 155px;
+  height: 54px;
+  background-image: url("https://i.ibb.co/8nfS1L3M/rb.png");
+  transform: none;
+  -webkit-transform: none;
+}
+
+.xbox .quadrant {
+  display: none;
+}
+
+.xbox .arrows {
+  position: absolute;
+  width: 587px;
+  height: 52px;
+  top: 201px;
+  left: 288px;
+}
+
+.xbox .back,
+.xbox .start {
+  width: 30px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0;
+}
+
+.xbox .back.pressed,
+.xbox .start.pressed {
+  opacity: 1;
+}
+
+.xbox .back {
+  float: left;
+  background-image: url("https://i.ibb.co/KZwFQHR/select.png");
+}
+
+.xbox .start {
+  float: right;
+  background-image: url("https://i.ibb.co/Mx5cbbbv/start.png");
+  background-position: center;
+}
+
+.xbox .abxy {
+  position: absolute;
+  width: 250px;
+  height: 251px;
+  top: 231px;
+  left: 827px;
+}
+
+.xbox .button {
+  position: absolute;
+  width: 76px;
+  height: 76px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0;
+}
+
+.xbox .button.pressed {
+  opacity: 1;
+  margin-top: 0;
+  background-position: center;
+}
+
+.xbox .a {
+  top: 175px;
+  left: 87px;
+  background-image: url("https://i.ibb.co/Z12VRNHm/x.png");
+}
+
+.xbox .b {
+  top: 87px;
+  left: 174px;
+  right: auto;
+  background-image: url("https://i.ibb.co/RTp3XxhS/o.png");
+}
+
+.xbox .x {
+  top: 88px;
+  left: 0;
+  background-image: url("https://i.ibb.co/SXWksH9d/square.png");
+}
+
+.xbox .y {
+  top: 0;
+  left: 86px;
+  background-image: url("https://i.ibb.co/V1fp4yf/triangle.png");
+}
+
+.xbox .sticks {
+  position: absolute;
+  width: 521px;
+  height: 139px;
+  top: 449px;
+  left: 323px;
+}
+
+.xbox .stick {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 139px;
+  width: 139px;
+  background-position: center
+}
+
+.xbox .stick.left {
+  top: 0;
+  left: 0;
+  background-image: url("https://i.ibb.co/Z6hkk2HX/ls-NCus.png");
+}
+
+.xbox .stick.right {
+  top: 0;
+  left: 380px;
+  background-image: url("https://i.ibb.co/nMQTBVc2/rs-NCus.png");
+}
+
+.xbox .stick.left.pressed {
+  background-image: url("https://i.ibb.co/VWzQW5YQ/ls-Cus.png");
+}
+
+.xbox .stick.right.pressed {
+  background-image: url("https://i.ibb.co/nyRyRrj/rs-Cus.png");
+}
+
+.xbox .dpad {
+  position: absolute;
+  width: 110px;
+  height: 111px;
+  top: 304px;
+  left: 148px;
+}
+
+.xbox .face {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0;
+}
+
+.xbox .face.pressed {
+  opacity: 1;
+}
+
+.xbox .face.up {
+  left: 30px;
+  top: -42px;
+  width: 65px;
+  height: 82px;
+  background-image: url("https://i.ibb.co/qMQT7bs7/u.png");
+  background-position: center;
+}
+
+.xbox .face.down {
+  left: 31px;
+  top: 71px;
+  bottom: auto;
+  width: 65px;
+  height: 83px;
+  background-image: url("https://i.ibb.co/BKCcvCnb/d.png");
+  background-position: center;
+}
+
+.xbox .face.left {
+  width: 80px;
+  height: 67px;
+  top: 21px;
+  left: -36px;
+  background-image: url("https://i.ibb.co/5g4xXcy4/l.png");
+  background-position: center;
+}
+
+.xbox .face.right {
+  width: 80px;
+  height: 67px;
+  top: 21px;
+  left: 81px;
+  right: auto;
+  background-image: url("https://i.ibb.co/dswbcyky/r.png");
+  background-position: center;
+}
+
+.xbox .touchpad {
+  position: absolute;
+  top: 148px;
+  left: 345px;
+  width: 473px;
+  height: 248px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.xbox .touchpad.pressed {
+  background-image: url("https://i.ibb.co/zhyyVHD4/touchpad.png");
+}
+
+.xbox .meta {
+  position: absolute;
+  top: 481px;
+  left: 544px;
+  width: 75px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.xbox .meta.pressed {
+  background-image: url("https://i.ibb.co/600JQLVg/meta-BW.png");
+}
+
+.xbox.half {
+  margin-top: -454px;
+}
+
+/*END Xbox One Controller Styling*/
